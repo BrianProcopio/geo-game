@@ -1,0 +1,6 @@
+@import 'tailwindcss';
+
+/* Use dynamic viewport height to account for mobile/tablet browser chrome (Safari toolbar etc.) */
+.h-dvh {
+  height: 100dvh;
+}
