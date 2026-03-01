@@ -25,6 +25,14 @@ bun run build
 bun run preview
 ```
 
+## Docker
+
+```sh
+docker compose up --build
+```
+
+Requires a `.env` file with your Google Maps API key (see Setup above). The app will be available at `http://localhost:3535` and accessible from other devices on your LAN via `http://<host-ip>:3535`.
+
 ## Tech Stack
 
 - React 19 + TypeScript

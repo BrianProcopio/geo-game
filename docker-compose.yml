@@ -1,0 +1,7 @@
+services:
+  geo-game:
+    build: .
+    ports:
+      - "3535:3535"
+    env_file:
+      - .env
