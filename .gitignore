@@ -2,5 +2,6 @@ node_modules
 .output
 .vinxi
 dist
+.tanstack
 .env
 app.config.timestamp_*
